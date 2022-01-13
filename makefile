@@ -1,4 +1,4 @@
-target.exe: main.o add2no.o big3no.o helloworld.o evenorodd.o
+cproject.exe: main.o add2no.o big3no.o helloworld.o evenorodd.o
 	gcc -o target.exe main.o add2no.o big3no.o helloworld.o evenorodd.o
 main.o: main.c
 	gcc -c main.c
